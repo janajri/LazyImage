@@ -1,7 +1,7 @@
 import React from 'react'
 import FullImage from './FullImage'
 import LazyImage from './LazyImage'
-import getStyles from '../shared/getStyles'
+const getStyles = require('../shared/getStyles')
 
 class LazyImageWrapper extends React.Component {
   constructor(props) {
