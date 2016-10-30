@@ -1,6 +1,6 @@
 const conditionalStyles = require('./styles')
 
-function getStyles(target, styles, condition) {
+var getStyles = function (target, styles, condition) {
   return Object.assign({},
     styles,
     condition && conditionalStyles[target].true,
